@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "https://prueba-crud-laravel.onrender.com/api/usuarios";
+const API_URL = "https://prueba-crud-laravel.onrender.com";
 
 export default function App() {
   const [usuarios, setUsuarios] = useState([]);
